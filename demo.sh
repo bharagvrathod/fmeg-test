@@ -13,7 +13,7 @@ source activate pytorch160
 
 nvidia-smi
 
-cd /home/xinqifan2/Project/first-order-model
+cd /home/fread/Project/first-order-model
 
 # casme
 # python demo.py  --config config/camse2-256.yaml --driving_video ../../Data/Face_Generation/MEGC2021_generation_video/source_samples/casme2_challenge_256_png/Surprise_EP01_13.mp4 --source_image ../../Data/Face_Generation/MEGC2021_generation/target_template_face/normalized_westernMale.jpg --checkpoint checkpoints_camse/00000499-checkpoint.pth.tar --relative --adapt_scale --result_video Surprise_EP01_13_westernMale.mp4
