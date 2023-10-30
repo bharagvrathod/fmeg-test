@@ -1,21 +1,21 @@
-# Facial Micro-Expression Generation based on Deep Motion Re-targeting and Transfer Learning
+# Facial Micro-Expression Generation based on Deep Motion Re-targeting and Transfer Learning alongside case study of second order motion model
 
-by Xinqi Fan, Ali Shahid, and Hong Yan
+by Xinqi Fan, Ali Shahid, and Hong Yan original authors modified by Bhargav Rathod 
 
 ## Introduction
 This repository is for our work Facial Micro-Expression Generation based on Deep Motion Re-targeting and Transfer Learning.
 
 ## Usage
 ### Requirement
-Python 3.6
+Python 3.8
 
-PyTorch 1.6
+please check the requirements.txt
 
 
 ### Download
 Clone the repository:
 ```
-git clone https://github.com/xinqi-fan/FMEG
+git clone https://github.com/bharagvrathod/fmeg-test
 cd FMEG
 ```
 
@@ -35,6 +35,7 @@ cd FMEG
 ### Test the model
 
 * Please refer to demo.sh and modify the related paths.
+* Please refer to second_order_demo.sh and modify the related paths.
 * The pretrained weights can be found in the above mentioned links.
 
 ## Citation
@@ -43,5 +44,4 @@ To be updated
 ## Comment
 We welcome any pull request for improving the code.
 
-## Acknowledge
-More information can be found from the original [first-order-motion repo](https://github.com/AliaksandrSiarohin/first-order-model).
+
